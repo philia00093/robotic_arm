@@ -1,0 +1,549 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.35.0.0
+Copyright (C) 2021 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: zhong zhongweikai, ., LIC=IK1BF-60ZPL-12DLE-55NQ9-96MJV-P6Q1Y
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.35.0.2
+Toolchain Path:  D:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 7 (build 960)
+Assembler:       Armasm.exe V5.06 update 7 (build 960)
+Linker/Locator:  ArmLink.exe V5.06 update 7 (build 960)
+Library Manager: ArmAr.exe V5.06 update 7 (build 960)
+Hex Converter:   FromElf.exe V5.06 update 7 (build 960)
+CPU DLL:         SARMCM3.DLL V5.35.0.2
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      CMSIS_AGDI.dll V1.33.0.0
+Dialog DLL:      TCM.DLL V1.53.0.0
+ 
+<h2>Project:</h2>
+C:\Users\zhongweikai\Desktop\balance_to_hero\DM-balanceV2_ing_old_remote\MDK-ARM\CtrlBoard-H7_IMU.uvprojx
+Project File Date:  10/28/2025
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'D:\Keil_v5\ARM\ARMCC\Bin'
+*** Warning: You are compiling one or more files of source type C++ and have selected 'use MicroLIB'. MicroLIB does not support C++!
+  
+Rebuild target 'CtrlBoard-H7_IMU'
+assembling startup_stm32h723xx.s...
+compiling usart.c...
+compiling dma.c...
+compiling tim.c...
+compiling adc.c...
+compiling gpio.c...
+compiling rtc.c...
+compiling stm32h7xx_hal_pcd.c...
+compiling stm32h7xx_hal_msp.c...
+compiling spi.c...
+compiling stm32h7xx_it.c...
+compiling fdcan.c...
+compiling freertos.c...
+../User/APP/start_task.h(16): warning:  #1-D: last line of file ends without a newline
+  #endif 
+../Core/Src/freertos.c: 1 warning, 0 errors
+compiling main.c...
+compiling stm32h7xx_hal_pcd_ex.c...
+compiling stm32h7xx_hal_mdma.c...
+compiling stm32h7xx_hal_pwr.c...
+compiling stm32h7xx_hal_hsem.c...
+compiling stm32h7xx_hal_flash_ex.c...
+compiling stm32h7xx_ll_usb.c...
+compiling stm32h7xx_hal_gpio.c...
+compiling stm32h7xx_hal_flash.c...
+compiling stm32h7xx_hal_pwr_ex.c...
+compiling stm32h7xx_hal_rcc.c...
+compiling stm32h7xx_hal_dma_ex.c...
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c(177): warning:  #42-D: operand types are incompatible ("DMA_Stream_TypeDef *" and "BDMA_Channel_TypeDef *")
+        if(IS_DMA_DMAMUX_ALL_INSTANCE(hdma->Instance) != 0U) /* No DMAMUX available for BDMA1 */
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c(177): warning:  #42-D: operand types are incompatible ("DMA_Stream_TypeDef *" and "BDMA_Channel_TypeDef *")
+        if(IS_DMA_DMAMUX_ALL_INSTANCE(hdma->Instance) != 0U) /* No DMAMUX available for BDMA1 */
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c(177): warning:  #42-D: operand types are incompatible ("DMA_Stream_TypeDef *" and "BDMA_Channel_TypeDef *")
+        if(IS_DMA_DMAMUX_ALL_INSTANCE(hdma->Instance) != 0U) /* No DMAMUX available for BDMA1 */
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c(177): warning:  #42-D: operand types are incompatible ("DMA_Stream_TypeDef *" and "BDMA_Channel_TypeDef *")
+        if(IS_DMA_DMAMUX_ALL_INSTANCE(hdma->Instance) != 0U) /* No DMAMUX available for BDMA1 */
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c(177): warning:  #42-D: operand types are incompatible ("DMA_Stream_TypeDef *" and "BDMA_Channel_TypeDef *")
+        if(IS_DMA_DMAMUX_ALL_INSTANCE(hdma->Instance) != 0U) /* No DMAMUX available for BDMA1 */
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c(177): warning:  #42-D: operand types are incompatible ("DMA_Stream_TypeDef *" and "BDMA_Channel_TypeDef *")
+        if(IS_DMA_DMAMUX_ALL_INSTANCE(hdma->Instance) != 0U) /* No DMAMUX available for BDMA1 */
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c(177): warning:  #42-D: operand types are incompatible ("DMA_Stream_TypeDef *" and "BDMA_Channel_TypeDef *")
+        if(IS_DMA_DMAMUX_ALL_INSTANCE(hdma->Instance) != 0U) /* No DMAMUX available for BDMA1 */
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c(177): warning:  #42-D: operand types are incompatible ("DMA_Stream_TypeDef *" and "BDMA_Channel_TypeDef *")
+        if(IS_DMA_DMAMUX_ALL_INSTANCE(hdma->Instance) != 0U) /* No DMAMUX available for BDMA1 */
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c(276): warning:  #42-D: operand types are incompatible ("DMA_Stream_TypeDef *" and "BDMA_Channel_TypeDef *")
+      if(IS_DMA_DMAMUX_ALL_INSTANCE(hdma->Instance) != 0U) /* No DMAMUX available for BDMA1 */
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c(276): warning:  #42-D: operand types are incompatible ("DMA_Stream_TypeDef *" and "BDMA_Channel_TypeDef *")
+      if(IS_DMA_DMAMUX_ALL_INSTANCE(hdma->Instance) != 0U) /* No DMAMUX available for BDMA1 */
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c(276): warning:  #42-D: operand types are incompatible ("DMA_Stream_TypeDef *" and "BDMA_Channel_TypeDef *")
+      if(IS_DMA_DMAMUX_ALL_INSTANCE(hdma->Instance) != 0U) /* No DMAMUX available for BDMA1 */
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c(276): warning:  #42-D: operand types are incompatible ("DMA_Stream_TypeDef *" and "BDMA_Channel_TypeDef *")
+      if(IS_DMA_DMAMUX_ALL_INSTANCE(hdma->Instance) != 0U) /* No DMAMUX available for BDMA1 */
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c(276): warning:  #42-D: operand types are incompatible ("DMA_Stream_TypeDef *" and "BDMA_Channel_TypeDef *")
+      if(IS_DMA_DMAMUX_ALL_INSTANCE(hdma->Instance) != 0U) /* No DMAMUX available for BDMA1 */
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c(276): warning:  #42-D: operand types are incompatible ("DMA_Stream_TypeDef *" and "BDMA_Channel_TypeDef *")
+      if(IS_DMA_DMAMUX_ALL_INSTANCE(hdma->Instance) != 0U) /* No DMAMUX available for BDMA1 */
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c(276): warning:  #42-D: operand types are incompatible ("DMA_Stream_TypeDef *" and "BDMA_Channel_TypeDef *")
+      if(IS_DMA_DMAMUX_ALL_INSTANCE(hdma->Instance) != 0U) /* No DMAMUX available for BDMA1 */
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c(276): warning:  #42-D: operand types are incompatible ("DMA_Stream_TypeDef *" and "BDMA_Channel_TypeDef *")
+      if(IS_DMA_DMAMUX_ALL_INSTANCE(hdma->Instance) != 0U) /* No DMAMUX available for BDMA1 */
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c(312): warning:  #42-D: operand types are incompatible ("DMA_Stream_TypeDef *" and "BDMA_Channel_TypeDef *")
+      if(IS_DMA_DMAMUX_ALL_INSTANCE(hdma->Instance) != 0U) /* No DMAMUX available for BDMA1 */
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c(312): warning:  #42-D: operand types are incompatible ("DMA_Stream_TypeDef *" and "BDMA_Channel_TypeDef *")
+      if(IS_DMA_DMAMUX_ALL_INSTANCE(hdma->Instance) != 0U) /* No DMAMUX available for BDMA1 */
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c(312): warning:  #42-D: operand types are incompatible ("DMA_Stream_TypeDef *" and "BDMA_Channel_TypeDef *")
+      if(IS_DMA_DMAMUX_ALL_INSTANCE(hdma->Instance) != 0U) /* No DMAMUX available for BDMA1 */
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c(312): warning:  #42-D: operand types are incompatible ("DMA_Stream_TypeDef *" and "BDMA_Channel_TypeDef *")
+      if(IS_DMA_DMAMUX_ALL_INSTANCE(hdma->Instance) != 0U) /* No DMAMUX available for BDMA1 */
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c(312): warning:  #42-D: operand types are incompatible ("DMA_Stream_TypeDef *" and "BDMA_Channel_TypeDef *")
+      if(IS_DMA_DMAMUX_ALL_INSTANCE(hdma->Instance) != 0U) /* No DMAMUX available for BDMA1 */
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c(312): warning:  #42-D: operand types are incompatible ("DMA_Stream_TypeDef *" and "BDMA_Channel_TypeDef *")
+      if(IS_DMA_DMAMUX_ALL_INSTANCE(hdma->Instance) != 0U) /* No DMAMUX available for BDMA1 */
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c(312): warning:  #42-D: operand types are incompatible ("DMA_Stream_TypeDef *" and "BDMA_Channel_TypeDef *")
+      if(IS_DMA_DMAMUX_ALL_INSTANCE(hdma->Instance) != 0U) /* No DMAMUX available for BDMA1 */
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c(312): warning:  #42-D: operand types are incompatible ("DMA_Stream_TypeDef *" and "BDMA_Channel_TypeDef *")
+      if(IS_DMA_DMAMUX_ALL_INSTANCE(hdma->Instance) != 0U) /* No DMAMUX available for BDMA1 */
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma_ex.c: 24 warnings, 0 errors
+compiling stm32h7xx_hal_rcc_ex.c...
+compiling stm32h7xx_hal_dma.c...
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c(358): warning:  #42-D: operand types are incompatible ("DMA_Stream_TypeDef *" and "BDMA_Channel_TypeDef *")
+    else if(IS_BDMA_CHANNEL_INSTANCE(hdma->Instance) != 0U) /* BDMA instance(s) */
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c(358): warning:  #42-D: operand types are incompatible ("DMA_Stream_TypeDef *" and "BDMA_Channel_TypeDef *")
+    else if(IS_BDMA_CHANNEL_INSTANCE(hdma->Instance) != 0U) /* BDMA instance(s) */
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c(358): warning:  #42-D: operand types are incompatible ("DMA_Stream_TypeDef *" and "BDMA_Channel_TypeDef *")
+    else if(IS_BDMA_CHANNEL_INSTANCE(hdma->Instance) != 0U) /* BDMA instance(s) */
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c(358): warning:  #42-D: operand types are incompatible ("DMA_Stream_TypeDef *" and "BDMA_Channel_TypeDef *")
+    else if(IS_BDMA_CHANNEL_INSTANCE(hdma->Instance) != 0U) /* BDMA instance(s) */
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c(358): warning:  #42-D: operand types are incompatible ("DMA_Stream_TypeDef *" and "BDMA_Channel_TypeDef *")
+    else if(IS_BDMA_CHANNEL_INSTANCE(hdma->Instance) != 0U) /* BDMA instance(s) */
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c(358): warning:  #42-D: operand types are incompatible ("DMA_Stream_TypeDef *" and "BDMA_Channel_TypeDef *")
+    else if(IS_BDMA_CHANNEL_INSTANCE(hdma->Instance) != 0U) /* BDMA instance(s) */
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c(358): warning:  #42-D: operand types are incompatible ("DMA_Stream_TypeDef *" and "BDMA_Channel_TypeDef *")
+    else if(IS_BDMA_CHANNEL_INSTANCE(hdma->Instance) != 0U) /* BDMA instance(s) */
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c(358): warning:  #42-D: operand types are incompatible ("DMA_Stream_TypeDef *" and "BDMA_Channel_TypeDef *")
+    else if(IS_BDMA_CHANNEL_INSTANCE(hdma->Instance) != 0U) /* BDMA instance(s) */
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c(360): warning:  #42-D: operand types are incompatible ("DMA_Stream_TypeDef *" and "BDMA_Channel_TypeDef *")
+      if(IS_BDMA_CHANNEL_DMAMUX_INSTANCE(hdma->Instance) != 0U)
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c(360): warning:  #42-D: operand types are incompatible ("DMA_Stream_TypeDef *" and "BDMA_Channel_TypeDef *")
+      if(IS_BDMA_CHANNEL_DMAMUX_INSTANCE(hdma->Instance) != 0U)
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c(360): warning:  #42-D: operand types are incompatible ("DMA_Stream_TypeDef *" and "BDMA_Channel_TypeDef *")
+      if(IS_BDMA_CHANNEL_DMAMUX_INSTANCE(hdma->Instance) != 0U)
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c(360): warning:  #42-D: operand types are incompatible ("DMA_Stream_TypeDef *" and "BDMA_Channel_TypeDef *")
+      if(IS_BDMA_CHANNEL_DMAMUX_INSTANCE(hdma->Instance) != 0U)
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c(360): warning:  #42-D: operand types are incompatible ("DMA_Stream_TypeDef *" and "BDMA_Channel_TypeDef *")
+      if(IS_BDMA_CHANNEL_DMAMUX_INSTANCE(hdma->Instance) != 0U)
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c(360): warning:  #42-D: operand types are incompatible ("DMA_Stream_TypeDef *" and "BDMA_Channel_TypeDef *")
+      if(IS_BDMA_CHANNEL_DMAMUX_INSTANCE(hdma->Instance) != 0U)
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c(360): warning:  #42-D: operand types are incompatible ("DMA_Stream_TypeDef *" and "BDMA_Channel_TypeDef *")
+      if(IS_BDMA_CHANNEL_DMAMUX_INSTANCE(hdma->Instance) != 0U)
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c(360): warning:  #42-D: operand types are incompatible ("DMA_Stream_TypeDef *" and "BDMA_Channel_TypeDef *")
+      if(IS_BDMA_CHANNEL_DMAMUX_INSTANCE(hdma->Instance) != 0U)
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c(411): warning:  #42-D: operand types are incompatible ("DMA_Stream_TypeDef *" and "BDMA_Channel_TypeDef *")
+    if(IS_DMA_DMAMUX_ALL_INSTANCE(hdma->Instance) != 0U) /* No DMAMUX available for BDMA1 */
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c(411): warning:  #42-D: operand types are incompatible ("DMA_Stream_TypeDef *" and "BDMA_Channel_TypeDef *")
+    if(IS_DMA_DMAMUX_ALL_INSTANCE(hdma->Instance) != 0U) /* No DMAMUX available for BDMA1 */
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c(411): warning:  #42-D: operand types are incompatible ("DMA_Stream_TypeDef *" and "BDMA_Channel_TypeDef *")
+    if(IS_DMA_DMAMUX_ALL_INSTANCE(hdma->Instance) != 0U) /* No DMAMUX available for BDMA1 */
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c(411): warning:  #42-D: operand types are incompatible ("DMA_Stream_TypeDef *" and "BDMA_Channel_TypeDef *")
+    if(IS_DMA_DMAMUX_ALL_INSTANCE(hdma->Instance) != 0U) /* No DMAMUX available for BDMA1 */
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c(411): warning:  #42-D: operand types are incompatible ("DMA_Stream_TypeDef *" and "BDMA_Channel_TypeDef *")
+    if(IS_DMA_DMAMUX_ALL_INSTANCE(hdma->Instance) != 0U) /* No DMAMUX available for BDMA1 */
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c(411): warning:  #42-D: operand types are incompatible ("DMA_Stream_TypeDef *" and "BDMA_Channel_TypeDef *")
+    if(IS_DMA_DMAMUX_ALL_INSTANCE(hdma->Instance) != 0U) /* No DMAMUX available for BDMA1 */
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c(411): warning:  #42-D: operand types are incompatible ("DMA_Stream_TypeDef *" and "BDMA_Channel_TypeDef *")
+    if(IS_DMA_DMAMUX_ALL_INSTANCE(hdma->Instance) != 0U) /* No DMAMUX available for BDMA1 */
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c(411): warning:  #42-D: operand types are incompatible ("DMA_Stream_TypeDef *" and "BDMA_Channel_TypeDef *")
+    if(IS_DMA_DMAMUX_ALL_INSTANCE(hdma->Instance) != 0U) /* No DMAMUX available for BDMA1 */
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c(508): warning:  #42-D: operand types are incompatible ("DMA_Stream_TypeDef *" and "BDMA_Channel_TypeDef *")
+    else if(IS_BDMA_CHANNEL_INSTANCE(hdma->Instance) != 0U) /* BDMA instance(s) */
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c(508): warning:  #42-D: operand types are incompatible ("DMA_Stream_TypeDef *" and "BDMA_Channel_TypeDef *")
+    else if(IS_BDMA_CHANNEL_INSTANCE(hdma->Instance) != 0U) /* BDMA instance(s) */
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c(508): warning:  #42-D: operand types are incompatible ("DMA_Stream_TypeDef *" and "BDMA_Channel_TypeDef *")
+    else if(IS_BDMA_CHANNEL_INSTANCE(hdma->Instance) != 0U) /* BDMA instance(s) */
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c(508): warning:  #42-D: operand types are incompatible ("DMA_Stream_TypeDef *" and "BDMA_Channel_TypeDef *")
+    else if(IS_BDMA_CHANNEL_INSTANCE(hdma->Instance) != 0U) /* BDMA instance(s) */
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c(508): warning:  #42-D: operand types are incompatible ("DMA_Stream_TypeDef *" and "BDMA_Channel_TypeDef *")
+    else if(IS_BDMA_CHANNEL_INSTANCE(hdma->Instance) != 0U) /* BDMA instance(s) */
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c(508): warning:  #42-D: operand types are incompatible ("DMA_Stream_TypeDef *" and "BDMA_Channel_TypeDef *")
+    else if(IS_BDMA_CHANNEL_INSTANCE(hdma->Instance) != 0U) /* BDMA instance(s) */
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c(508): warning:  #42-D: operand types are incompatible ("DMA_Stream_TypeDef *" and "BDMA_Channel_TypeDef *")
+    else if(IS_BDMA_CHANNEL_INSTANCE(hdma->Instance) != 0U) /* BDMA instance(s) */
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c(508): warning:  #42-D: operand types are incompatible ("DMA_Stream_TypeDef *" and "BDMA_Channel_TypeDef *")
+    else if(IS_BDMA_CHANNEL_INSTANCE(hdma->Instance) != 0U) /* BDMA instance(s) */
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c(734): warning:  #42-D: operand types are incompatible ("DMA_Stream_TypeDef *" and "BDMA_Channel_TypeDef *")
+      if(IS_DMA_DMAMUX_ALL_INSTANCE(hdma->Instance) != 0U) /* No DMAMUX available for BDMA1 */
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c(734): warning:  #42-D: operand types are incompatible ("DMA_Stream_TypeDef *" and "BDMA_Channel_TypeDef *")
+      if(IS_DMA_DMAMUX_ALL_INSTANCE(hdma->Instance) != 0U) /* No DMAMUX available for BDMA1 */
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c(734): warning:  #42-D: operand types are incompatible ("DMA_Stream_TypeDef *" and "BDMA_Channel_TypeDef *")
+      if(IS_DMA_DMAMUX_ALL_INSTANCE(hdma->Instance) != 0U) /* No DMAMUX available for BDMA1 */
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c(734): warning:  #42-D: operand types are incompatible ("DMA_Stream_TypeDef *" and "BDMA_Channel_TypeDef *")
+      if(IS_DMA_DMAMUX_ALL_INSTANCE(hdma->Instance) != 0U) /* No DMAMUX available for BDMA1 */
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c(734): warning:  #42-D: operand types are incompatible ("DMA_Stream_TypeDef *" and "BDMA_Channel_TypeDef *")
+      if(IS_DMA_DMAMUX_ALL_INSTANCE(hdma->Instance) != 0U) /* No DMAMUX available for BDMA1 */
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c(734): warning:  #42-D: operand types are incompatible ("DMA_Stream_TypeDef *" and "BDMA_Channel_TypeDef *")
+      if(IS_DMA_DMAMUX_ALL_INSTANCE(hdma->Instance) != 0U) /* No DMAMUX available for BDMA1 */
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c(734): warning:  #42-D: operand types are incompatible ("DMA_Stream_TypeDef *" and "BDMA_Channel_TypeDef *")
+      if(IS_DMA_DMAMUX_ALL_INSTANCE(hdma->Instance) != 0U) /* No DMAMUX available for BDMA1 */
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c(734): warning:  #42-D: operand types are incompatible ("DMA_Stream_TypeDef *" and "BDMA_Channel_TypeDef *")
+      if(IS_DMA_DMAMUX_ALL_INSTANCE(hdma->Instance) != 0U) /* No DMAMUX available for BDMA1 */
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c(825): warning:  #42-D: operand types are incompatible ("DMA_Stream_TypeDef *" and "BDMA_Channel_TypeDef *")
+      if(IS_DMA_DMAMUX_ALL_INSTANCE(hdma->Instance) != 0U) /* No DMAMUX available for BDMA1 */
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c(825): warning:  #42-D: operand types are incompatible ("DMA_Stream_TypeDef *" and "BDMA_Channel_TypeDef *")
+      if(IS_DMA_DMAMUX_ALL_INSTANCE(hdma->Instance) != 0U) /* No DMAMUX available for BDMA1 */
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c(825): warning:  #42-D: operand types are incompatible ("DMA_Stream_TypeDef *" and "BDMA_Channel_TypeDef *")
+      if(IS_DMA_DMAMUX_ALL_INSTANCE(hdma->Instance) != 0U) /* No DMAMUX available for BDMA1 */
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c(825): warning:  #42-D: operand types are incompatible ("DMA_Stream_TypeDef *" and "BDMA_Channel_TypeDef *")
+      if(IS_DMA_DMAMUX_ALL_INSTANCE(hdma->Instance) != 0U) /* No DMAMUX available for BDMA1 */
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c(825): warning:  #42-D: operand types are incompatible ("DMA_Stream_TypeDef *" and "BDMA_Channel_TypeDef *")
+      if(IS_DMA_DMAMUX_ALL_INSTANCE(hdma->Instance) != 0U) /* No DMAMUX available for BDMA1 */
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c(825): warning:  #42-D: operand types are incompatible ("DMA_Stream_TypeDef *" and "BDMA_Channel_TypeDef *")
+      if(IS_DMA_DMAMUX_ALL_INSTANCE(hdma->Instance) != 0U) /* No DMAMUX available for BDMA1 */
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c(825): warning:  #42-D: operand types are incompatible ("DMA_Stream_TypeDef *" and "BDMA_Channel_TypeDef *")
+      if(IS_DMA_DMAMUX_ALL_INSTANCE(hdma->Instance) != 0U) /* No DMAMUX available for BDMA1 */
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c(825): warning:  #42-D: operand types are incompatible ("DMA_Stream_TypeDef *" and "BDMA_Channel_TypeDef *")
+      if(IS_DMA_DMAMUX_ALL_INSTANCE(hdma->Instance) != 0U) /* No DMAMUX available for BDMA1 */
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c(865): warning:  #42-D: operand types are incompatible ("DMA_Stream_TypeDef *" and "BDMA_Channel_TypeDef *")
+      if(IS_DMA_DMAMUX_ALL_INSTANCE(hdma->Instance) != 0U) /* No DMAMUX available for BDMA1 */
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c(865): warning:  #42-D: operand types are incompatible ("DMA_Stream_TypeDef *" and "BDMA_Channel_TypeDef *")
+      if(IS_DMA_DMAMUX_ALL_INSTANCE(hdma->Instance) != 0U) /* No DMAMUX available for BDMA1 */
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c(865): warning:  #42-D: operand types are incompatible ("DMA_Stream_TypeDef *" and "BDMA_Channel_TypeDef *")
+      if(IS_DMA_DMAMUX_ALL_INSTANCE(hdma->Instance) != 0U) /* No DMAMUX available for BDMA1 */
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c(865): warning:  #42-D: operand types are incompatible ("DMA_Stream_TypeDef *" and "BDMA_Channel_TypeDef *")
+      if(IS_DMA_DMAMUX_ALL_INSTANCE(hdma->Instance) != 0U) /* No DMAMUX available for BDMA1 */
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c(865): warning:  #42-D: operand types are incompatible ("DMA_Stream_TypeDef *" and "BDMA_Channel_TypeDef *")
+      if(IS_DMA_DMAMUX_ALL_INSTANCE(hdma->Instance) != 0U) /* No DMAMUX available for BDMA1 */
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c(865): warning:  #42-D: operand types are incompatible ("DMA_Stream_TypeDef *" and "BDMA_Channel_TypeDef *")
+      if(IS_DMA_DMAMUX_ALL_INSTANCE(hdma->Instance) != 0U) /* No DMAMUX available for BDMA1 */
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c(865): warning:  #42-D: operand types are incompatible ("DMA_Stream_TypeDef *" and "BDMA_Channel_TypeDef *")
+      if(IS_DMA_DMAMUX_ALL_INSTANCE(hdma->Instance) != 0U) /* No DMAMUX available for BDMA1 */
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c(865): warning:  #42-D: operand types are incompatible ("DMA_Stream_TypeDef *" and "BDMA_Channel_TypeDef *")
+      if(IS_DMA_DMAMUX_ALL_INSTANCE(hdma->Instance) != 0U) /* No DMAMUX available for BDMA1 */
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c(930): warning:  #42-D: operand types are incompatible ("DMA_Stream_TypeDef *" and "BDMA_Channel_TypeDef *")
+        if(IS_DMA_DMAMUX_ALL_INSTANCE(hdma->Instance) != 0U) /* No DMAMUX available for BDMA1 */
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c(930): warning:  #42-D: operand types are incompatible ("DMA_Stream_TypeDef *" and "BDMA_Channel_TypeDef *")
+        if(IS_DMA_DMAMUX_ALL_INSTANCE(hdma->Instance) != 0U) /* No DMAMUX available for BDMA1 */
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c(930): warning:  #42-D: operand types are incompatible ("DMA_Stream_TypeDef *" and "BDMA_Channel_TypeDef *")
+        if(IS_DMA_DMAMUX_ALL_INSTANCE(hdma->Instance) != 0U) /* No DMAMUX available for BDMA1 */
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c(930): warning:  #42-D: operand types are incompatible ("DMA_Stream_TypeDef *" and "BDMA_Channel_TypeDef *")
+        if(IS_DMA_DMAMUX_ALL_INSTANCE(hdma->Instance) != 0U) /* No DMAMUX available for BDMA1 */
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c(930): warning:  #42-D: operand types are incompatible ("DMA_Stream_TypeDef *" and "BDMA_Channel_TypeDef *")
+        if(IS_DMA_DMAMUX_ALL_INSTANCE(hdma->Instance) != 0U) /* No DMAMUX available for BDMA1 */
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c(930): warning:  #42-D: operand types are incompatible ("DMA_Stream_TypeDef *" and "BDMA_Channel_TypeDef *")
+        if(IS_DMA_DMAMUX_ALL_INSTANCE(hdma->Instance) != 0U) /* No DMAMUX available for BDMA1 */
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c(930): warning:  #42-D: operand types are incompatible ("DMA_Stream_TypeDef *" and "BDMA_Channel_TypeDef *")
+        if(IS_DMA_DMAMUX_ALL_INSTANCE(hdma->Instance) != 0U) /* No DMAMUX available for BDMA1 */
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c(930): warning:  #42-D: operand types are incompatible ("DMA_Stream_TypeDef *" and "BDMA_Channel_TypeDef *")
+        if(IS_DMA_DMAMUX_ALL_INSTANCE(hdma->Instance) != 0U) /* No DMAMUX available for BDMA1 */
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c(1139): warning:  #42-D: operand types are incompatible ("DMA_Stream_TypeDef *" and "BDMA_Channel_TypeDef *")
+      if(IS_DMA_DMAMUX_ALL_INSTANCE(hdma->Instance) != 0U) /* No DMAMUX available for BDMA1 */
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c(1139): warning:  #42-D: operand types are incompatible ("DMA_Stream_TypeDef *" and "BDMA_Channel_TypeDef *")
+      if(IS_DMA_DMAMUX_ALL_INSTANCE(hdma->Instance) != 0U) /* No DMAMUX available for BDMA1 */
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c(1139): warning:  #42-D: operand types are incompatible ("DMA_Stream_TypeDef *" and "BDMA_Channel_TypeDef *")
+      if(IS_DMA_DMAMUX_ALL_INSTANCE(hdma->Instance) != 0U) /* No DMAMUX available for BDMA1 */
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c(1139): warning:  #42-D: operand types are incompatible ("DMA_Stream_TypeDef *" and "BDMA_Channel_TypeDef *")
+      if(IS_DMA_DMAMUX_ALL_INSTANCE(hdma->Instance) != 0U) /* No DMAMUX available for BDMA1 */
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c(1139): warning:  #42-D: operand types are incompatible ("DMA_Stream_TypeDef *" and "BDMA_Channel_TypeDef *")
+      if(IS_DMA_DMAMUX_ALL_INSTANCE(hdma->Instance) != 0U) /* No DMAMUX available for BDMA1 */
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c(1139): warning:  #42-D: operand types are incompatible ("DMA_Stream_TypeDef *" and "BDMA_Channel_TypeDef *")
+      if(IS_DMA_DMAMUX_ALL_INSTANCE(hdma->Instance) != 0U) /* No DMAMUX available for BDMA1 */
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c(1139): warning:  #42-D: operand types are incompatible ("DMA_Stream_TypeDef *" and "BDMA_Channel_TypeDef *")
+      if(IS_DMA_DMAMUX_ALL_INSTANCE(hdma->Instance) != 0U) /* No DMAMUX available for BDMA1 */
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c(1139): warning:  #42-D: operand types are incompatible ("DMA_Stream_TypeDef *" and "BDMA_Channel_TypeDef *")
+      if(IS_DMA_DMAMUX_ALL_INSTANCE(hdma->Instance) != 0U) /* No DMAMUX available for BDMA1 */
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c(1431): warning:  #42-D: operand types are incompatible ("DMA_Stream_TypeDef *" and "BDMA_Channel_TypeDef *")
+    else if(IS_BDMA_CHANNEL_INSTANCE(hdma->Instance) != 0U)  /* BDMA instance(s) */
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c(1431): warning:  #42-D: operand types are incompatible ("DMA_Stream_TypeDef *" and "BDMA_Channel_TypeDef *")
+    else if(IS_BDMA_CHANNEL_INSTANCE(hdma->Instance) != 0U)  /* BDMA instance(s) */
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c(1431): warning:  #42-D: operand types are incompatible ("DMA_Stream_TypeDef *" and "BDMA_Channel_TypeDef *")
+    else if(IS_BDMA_CHANNEL_INSTANCE(hdma->Instance) != 0U)  /* BDMA instance(s) */
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c(1431): warning:  #42-D: operand types are incompatible ("DMA_Stream_TypeDef *" and "BDMA_Channel_TypeDef *")
+    else if(IS_BDMA_CHANNEL_INSTANCE(hdma->Instance) != 0U)  /* BDMA instance(s) */
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c(1431): warning:  #42-D: operand types are incompatible ("DMA_Stream_TypeDef *" and "BDMA_Channel_TypeDef *")
+    else if(IS_BDMA_CHANNEL_INSTANCE(hdma->Instance) != 0U)  /* BDMA instance(s) */
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c(1431): warning:  #42-D: operand types are incompatible ("DMA_Stream_TypeDef *" and "BDMA_Channel_TypeDef *")
+    else if(IS_BDMA_CHANNEL_INSTANCE(hdma->Instance) != 0U)  /* BDMA instance(s) */
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c(1431): warning:  #42-D: operand types are incompatible ("DMA_Stream_TypeDef *" and "BDMA_Channel_TypeDef *")
+    else if(IS_BDMA_CHANNEL_INSTANCE(hdma->Instance) != 0U)  /* BDMA instance(s) */
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c(1431): warning:  #42-D: operand types are incompatible ("DMA_Stream_TypeDef *" and "BDMA_Channel_TypeDef *")
+    else if(IS_BDMA_CHANNEL_INSTANCE(hdma->Instance) != 0U)  /* BDMA instance(s) */
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c(1779): warning:  #42-D: operand types are incompatible ("DMA_Stream_TypeDef *" and "BDMA_Channel_TypeDef *")
+    if(IS_DMA_DMAMUX_ALL_INSTANCE(hdma->Instance) != 0U) /* No DMAMUX available for BDMA1 */
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c(1779): warning:  #42-D: operand types are incompatible ("DMA_Stream_TypeDef *" and "BDMA_Channel_TypeDef *")
+    if(IS_DMA_DMAMUX_ALL_INSTANCE(hdma->Instance) != 0U) /* No DMAMUX available for BDMA1 */
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c(1779): warning:  #42-D: operand types are incompatible ("DMA_Stream_TypeDef *" and "BDMA_Channel_TypeDef *")
+    if(IS_DMA_DMAMUX_ALL_INSTANCE(hdma->Instance) != 0U) /* No DMAMUX available for BDMA1 */
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c(1779): warning:  #42-D: operand types are incompatible ("DMA_Stream_TypeDef *" and "BDMA_Channel_TypeDef *")
+    if(IS_DMA_DMAMUX_ALL_INSTANCE(hdma->Instance) != 0U) /* No DMAMUX available for BDMA1 */
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c(1779): warning:  #42-D: operand types are incompatible ("DMA_Stream_TypeDef *" and "BDMA_Channel_TypeDef *")
+    if(IS_DMA_DMAMUX_ALL_INSTANCE(hdma->Instance) != 0U) /* No DMAMUX available for BDMA1 */
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c(1779): warning:  #42-D: operand types are incompatible ("DMA_Stream_TypeDef *" and "BDMA_Channel_TypeDef *")
+    if(IS_DMA_DMAMUX_ALL_INSTANCE(hdma->Instance) != 0U) /* No DMAMUX available for BDMA1 */
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c(1779): warning:  #42-D: operand types are incompatible ("DMA_Stream_TypeDef *" and "BDMA_Channel_TypeDef *")
+    if(IS_DMA_DMAMUX_ALL_INSTANCE(hdma->Instance) != 0U) /* No DMAMUX available for BDMA1 */
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c(1779): warning:  #42-D: operand types are incompatible ("DMA_Stream_TypeDef *" and "BDMA_Channel_TypeDef *")
+    if(IS_DMA_DMAMUX_ALL_INSTANCE(hdma->Instance) != 0U) /* No DMAMUX available for BDMA1 */
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c(1821): warning:  #42-D: operand types are incompatible ("DMA_Stream_TypeDef *" and "BDMA_Channel_TypeDef *")
+    else if(IS_BDMA_CHANNEL_INSTANCE(hdma->Instance) != 0U) /* BDMA instance(s) */
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c(1821): warning:  #42-D: operand types are incompatible ("DMA_Stream_TypeDef *" and "BDMA_Channel_TypeDef *")
+    else if(IS_BDMA_CHANNEL_INSTANCE(hdma->Instance) != 0U) /* BDMA instance(s) */
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c(1821): warning:  #42-D: operand types are incompatible ("DMA_Stream_TypeDef *" and "BDMA_Channel_TypeDef *")
+    else if(IS_BDMA_CHANNEL_INSTANCE(hdma->Instance) != 0U) /* BDMA instance(s) */
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c(1821): warning:  #42-D: operand types are incompatible ("DMA_Stream_TypeDef *" and "BDMA_Channel_TypeDef *")
+    else if(IS_BDMA_CHANNEL_INSTANCE(hdma->Instance) != 0U) /* BDMA instance(s) */
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c(1821): warning:  #42-D: operand types are incompatible ("DMA_Stream_TypeDef *" and "BDMA_Channel_TypeDef *")
+    else if(IS_BDMA_CHANNEL_INSTANCE(hdma->Instance) != 0U) /* BDMA instance(s) */
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c(1821): warning:  #42-D: operand types are incompatible ("DMA_Stream_TypeDef *" and "BDMA_Channel_TypeDef *")
+    else if(IS_BDMA_CHANNEL_INSTANCE(hdma->Instance) != 0U) /* BDMA instance(s) */
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c(1821): warning:  #42-D: operand types are incompatible ("DMA_Stream_TypeDef *" and "BDMA_Channel_TypeDef *")
+    else if(IS_BDMA_CHANNEL_INSTANCE(hdma->Instance) != 0U) /* BDMA instance(s) */
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c(1821): warning:  #42-D: operand types are incompatible ("DMA_Stream_TypeDef *" and "BDMA_Channel_TypeDef *")
+    else if(IS_BDMA_CHANNEL_INSTANCE(hdma->Instance) != 0U) /* BDMA instance(s) */
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c(1995): warning:  #42-D: operand types are incompatible ("DMA_Stream_TypeDef *" and "BDMA_Channel_TypeDef *")
+    if(IS_BDMA_CHANNEL_DMAMUX_INSTANCE(hdma->Instance) != 0U)
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c(1995): warning:  #42-D: operand types are incompatible ("DMA_Stream_TypeDef *" and "BDMA_Channel_TypeDef *")
+    if(IS_BDMA_CHANNEL_DMAMUX_INSTANCE(hdma->Instance) != 0U)
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c(1995): warning:  #42-D: operand types are incompatible ("DMA_Stream_TypeDef *" and "BDMA_Channel_TypeDef *")
+    if(IS_BDMA_CHANNEL_DMAMUX_INSTANCE(hdma->Instance) != 0U)
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c(1995): warning:  #42-D: operand types are incompatible ("DMA_Stream_TypeDef *" and "BDMA_Channel_TypeDef *")
+    if(IS_BDMA_CHANNEL_DMAMUX_INSTANCE(hdma->Instance) != 0U)
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c(1995): warning:  #42-D: operand types are incompatible ("DMA_Stream_TypeDef *" and "BDMA_Channel_TypeDef *")
+    if(IS_BDMA_CHANNEL_DMAMUX_INSTANCE(hdma->Instance) != 0U)
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c(1995): warning:  #42-D: operand types are incompatible ("DMA_Stream_TypeDef *" and "BDMA_Channel_TypeDef *")
+    if(IS_BDMA_CHANNEL_DMAMUX_INSTANCE(hdma->Instance) != 0U)
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c(1995): warning:  #42-D: operand types are incompatible ("DMA_Stream_TypeDef *" and "BDMA_Channel_TypeDef *")
+    if(IS_BDMA_CHANNEL_DMAMUX_INSTANCE(hdma->Instance) != 0U)
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c(1995): warning:  #42-D: operand types are incompatible ("DMA_Stream_TypeDef *" and "BDMA_Channel_TypeDef *")
+    if(IS_BDMA_CHANNEL_DMAMUX_INSTANCE(hdma->Instance) != 0U)
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c(2031): warning:  #42-D: operand types are incompatible ("DMA_Stream_TypeDef *" and "BDMA_Channel_TypeDef *")
+      if(IS_BDMA_CHANNEL_DMAMUX_INSTANCE(hdma->Instance) != 0U)
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c(2031): warning:  #42-D: operand types are incompatible ("DMA_Stream_TypeDef *" and "BDMA_Channel_TypeDef *")
+      if(IS_BDMA_CHANNEL_DMAMUX_INSTANCE(hdma->Instance) != 0U)
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c(2031): warning:  #42-D: operand types are incompatible ("DMA_Stream_TypeDef *" and "BDMA_Channel_TypeDef *")
+      if(IS_BDMA_CHANNEL_DMAMUX_INSTANCE(hdma->Instance) != 0U)
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c(2031): warning:  #42-D: operand types are incompatible ("DMA_Stream_TypeDef *" and "BDMA_Channel_TypeDef *")
+      if(IS_BDMA_CHANNEL_DMAMUX_INSTANCE(hdma->Instance) != 0U)
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c(2031): warning:  #42-D: operand types are incompatible ("DMA_Stream_TypeDef *" and "BDMA_Channel_TypeDef *")
+      if(IS_BDMA_CHANNEL_DMAMUX_INSTANCE(hdma->Instance) != 0U)
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c(2031): warning:  #42-D: operand types are incompatible ("DMA_Stream_TypeDef *" and "BDMA_Channel_TypeDef *")
+      if(IS_BDMA_CHANNEL_DMAMUX_INSTANCE(hdma->Instance) != 0U)
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c(2031): warning:  #42-D: operand types are incompatible ("DMA_Stream_TypeDef *" and "BDMA_Channel_TypeDef *")
+      if(IS_BDMA_CHANNEL_DMAMUX_INSTANCE(hdma->Instance) != 0U)
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c(2031): warning:  #42-D: operand types are incompatible ("DMA_Stream_TypeDef *" and "BDMA_Channel_TypeDef *")
+      if(IS_BDMA_CHANNEL_DMAMUX_INSTANCE(hdma->Instance) != 0U)
+../Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c: 112 warnings, 0 errors
+compiling stm32h7xx_hal_rtc.c...
+compiling stm32h7xx_hal_rtc_ex.c...
+compiling stm32h7xx_hal_cortex.c...
+compiling stm32h7xx_hal_exti.c...
+compiling stm32h7xx_hal_spi_ex.c...
+compiling stm32h7xx_hal_i2c_ex.c...
+compiling stm32h7xx_hal_fdcan.c...
+compiling stm32h7xx_hal_spi.c...
+compiling QuaternionEKF.c...
+compiling stm32h7xx_hal_adc_ex.c...
+compiling kalman_filter.c...
+compiling stm32h7xx_hal.c...
+compiling stm32h7xx_hal_i2c.c...
+compiling First_high_pass_filter.cpp...
+compiling First_order_filter.cpp...
+compiling stm32h7xx_hal_adc.c...
+compiling croutine.c...
+compiling event_groups.c...
+compiling list.c...
+compiling queue.c...
+compiling stream_buffer.c...
+compiling tasks.c...
+compiling timers.c...
+compiling cmsis_os.c...
+compiling stm32h7xx_hal_tim.c...
+compiling heap_4.c...
+compiling port.c...
+compiling system_stm32h7xx.c...
+compiling pid.c...
+compiling CRC.c...
+..\User\Algorithm\CRC.h(36): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\User\Algorithm\CRC.c: 1 warning, 0 errors
+compiling stm32h7xx_hal_uart_ex.c...
+compiling BMI088driver.c...
+compiling BMI088Middleware.c...
+compiling user_lib.c...
+..\User\Lib\user_lib.h(138): warning:  #2532-D: support for trigraphs is disabled
+  //??????-PI~PI
+..\User\Lib\user_lib.c: 1 warning, 0 errors
+compiling ins_task.cpp...
+../User/protocol/Can_receive.h(220): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\User\APP\ins_task.cpp: 1 warning, 0 errors
+compiling mahony_filter.c...
+compiling Pid_1.cpp...
+..\User\Algorithm\Pid_1.cpp(131): warning:  #1-D: last line of file ends without a newline
+  }
+..\User\Algorithm\Pid_1.cpp: 1 warning, 0 errors
+compiling stm32h7xx_hal_tim_ex.c...
+compiling stm32h7xx_hal_uart.c...
+compiling INS.c...
+../User/Lib/user_lib.h(138): warning:  #2532-D: support for trigraphs is disabled
+  //??????-PI~PI
+../User/Devices/include/struct_typedef.h(21): warning:  #47-D: incompatible redefinition of macro "PI"  (declared at line 349 of "../Drivers/CMSIS/DSP/Include/arm_math.h")
+  #define PI 3.1415926f
+..\User\APP\INS.c: 2 warnings, 0 errors
+compiling bsp_PWM.c...
+compiling bsp_buzzer.c...
+compiling bsp_adc.c...
+compiling bsp_delay.c...
+compiling bsp_can.c...
+compiling communicate_task.cpp...
+..\User\APP\communicate_task.h(21): warning:  #1-D: last line of file ends without a newline
+  #endif
+../User/protocol/Can_receive.h(220): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\User\APP\communicate_task.cpp(22): warning:  #1-D: last line of file ends without a newline
+  }
+..\User\APP\communicate_task.cpp: 3 warnings, 0 errors
+compiling bsp_laser.c...
+compiling bsp_dwt.c...
+compiling bsp_flash.c...
+..\User\Bsp\bsp_flash.c(72): warning:  #2532-D: support for trigraphs is disabled
+  		    // 2. ?????? ? ?????!
+..\User\Bsp\bsp_flash.c: 1 warning, 0 errors
+compiling shoot_task.cpp...
+../User/protocol/Can_receive.h(220): warning:  #1-D: last line of file ends without a newline
+  #endif
+../User/module/Shoot.h(94): warning:  #47-D: incompatible redefinition of macro "TRIGGER_SPEED"  (declared at line 89)
+  #define TRIGGER_SPEED    8.0f //(rad/s)
+..\User\APP\shoot_task.h(47): warning:  #47-D: incompatible redefinition of macro "SHOOT_CONTROL_TIME"  (declared at line 38 of "../User/module/Shoot.h")
+  #define SHOOT_CONTROL_TIME 1
+..\User\APP\shoot_task.cpp: 3 warnings, 0 errors
+compiling calibrate_task.cpp...
+../User/protocol/Can_receive.h(220): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\User\APP\communicate_task.h(21): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\User\APP\calibrate_task.cpp(356): warning:  #177-D: variable "GYRO_FLAG"  was declared but never referenced
+      static const uint8_t GYRO_FLAG = 3;
+..\User\APP\calibrate_task.cpp(610): warning:  #177-D: function "cali_head_hook"  was declared but never referenced
+    static bool_t cali_head_hook(uint32_t * cali, bool_t cmd)
+..\User\APP\calibrate_task.cpp(704): warning:  #177-D: function "cali_gimbal_hook"  was declared but never referenced
+    static bool_t cali_gimbal_hook(uint32_t * cali, bool_t cmd)
+..\User\APP\calibrate_task.cpp: 5 warnings, 0 errors
+compiling gimbal_task.cpp...
+../User/Devices/include/struct_typedef.h(21): warning:  #47-D: incompatible redefinition of macro "PI"  (declared at line 349 of "../Drivers/CMSIS/DSP/Include/arm_math.h")
+  #define PI 3.1415926f
+../User/protocol/Can_receive.h(220): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\User\APP\gimbal_task.cpp: 2 warnings, 0 errors
+compiling start_task.cpp...
+..\User\APP\start_task.h(16): warning:  #1-D: last line of file ends without a newline
+  #endif 
+..\User\APP\communicate_task.h(21): warning:  #1-D: last line of file ends without a newline
+  #endif
+../User/protocol/Can_receive.h(220): warning:  #1-D: last line of file ends without a newline
+  #endif
+../User/module/Shoot.h(94): warning:  #47-D: incompatible redefinition of macro "TRIGGER_SPEED"  (declared at line 89)
+  #define TRIGGER_SPEED    8.0f //(rad/s)
+..\User\APP\shoot_task.h(47): warning:  #47-D: incompatible redefinition of macro "SHOOT_CONTROL_TIME"  (declared at line 38 of "../User/module/Shoot.h")
+  #define SHOOT_CONTROL_TIME 1
+..\User\APP\start_task.cpp: 5 warnings, 0 errors
+compiling remote_control.cpp...
+compiling bsp_rc.c...
+compiling fifo.c...
+compiling usb_device.c...
+compiling AHRS_middleware.c...
+compiling Can_receive.cpp...
+..\User\protocol\Can_receive.h(220): warning:  #1-D: last line of file ends without a newline
+  #endif
+../Core/Inc/fdcan.h(35): warning:  #337-D: linkage specification is incompatible with previous "hfdcan1"  (declared at line 10 of "..\User\protocol\Can_receive.h")
+  extern FDCAN_HandleTypeDef hfdcan1;
+../Core/Inc/fdcan.h(37): warning:  #337-D: linkage specification is incompatible with previous "hfdcan2"  (declared at line 11 of "..\User\protocol\Can_receive.h")
+  extern FDCAN_HandleTypeDef hfdcan2;
+..\User\protocol\Can_receive.cpp: 3 warnings, 0 errors
+compiling controller.c...
+../User/Lib/user_lib.h(138): warning:  #2532-D: support for trigraphs is disabled
+  //??????-PI~PI
+..\User\Controller\controller.c: 1 warning, 0 errors
+compiling Motor.cpp...
+../User/protocol/Can_receive.h(220): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\User\device\Motor.cpp(325): warning:  #1-D: last line of file ends without a newline
+  }
+..\User\device\Motor.cpp: 2 warnings, 0 errors
+compiling bsp_usart.c...
+compiling vision.cpp...
+../User/protocol/Can_receive.h(220): warning:  #1-D: last line of file ends without a newline
+  #endif
+../User/Algorithm/CRC.h(36): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\User\protocol\vision.cpp: 2 warnings, 0 errors
+compiling gimbal.cpp...
+../User/protocol/Can_receive.h(220): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\User\module\Shoot.h(94): warning:  #47-D: incompatible redefinition of macro "TRIGGER_SPEED"  (declared at line 89)
+  #define TRIGGER_SPEED    8.0f //(rad/s)
+..\User\module\gimbal.cpp(531): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+          *pitch = (PITCH_TO_MID_SET - gimbal_pitch.encode_angle) * GIMBAL_TO_MID_PITCH_SPEED;
+..\User\module\gimbal.cpp(536): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+          *pitch = (PITCH_TO_MID_SET - gimbal_pitch.encode_angle) * GIMBAL_TO_MID_PITCH_SPEED;
+..\User\module\gimbal.cpp: 4 warnings, 0 errors
+compiling Shoot.cpp...
+../User/protocol/Can_receive.h(220): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\User\module\Shoot.h(94): warning:  #47-D: incompatible redefinition of macro "TRIGGER_SPEED"  (declared at line 89)
+  #define TRIGGER_SPEED    8.0f //(rad/s)
+..\User\module\Shoot.cpp(210): warning:  #177-D: variable "chassis_z_order_filter"  was declared but never referenced
+      const static fp32 chassis_z_order_filter[1] = {SHOOT_ACCEL_FRIC_UP_NUM};
+..\User\module\Shoot.cpp(636): warning:  #550-D: variable "shoot_speed_limit"  was set but never used
+      uint16_t shoot_speed_limit;
+..\User\module\Shoot.cpp(903): warning:  #1035-D: single-precision operand implicitly converted to double-precision
+          trigger_motor.angle_set = trigger_motor.angle + TRIGGER_ONCE
+..\User\module\Shoot.cpp: 5 warnings, 0 errors
+compiling communicate.cpp...
+../User/protocol/Can_receive.h(220): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\User\module\shoot.h(94): warning:  #47-D: incompatible redefinition of macro "TRIGGER_SPEED"  (declared at line 89)
+  #define TRIGGER_SPEED    8.0f //(rad/s)
+..\User\module\communicate.cpp(324): warning:  #550-D: variable "this_time_rx_len"  was set but never used
+              static uint16_t this_time_rx_len = 0;
+..\User\module\communicate.cpp(413): warning:  #111-D: statement is unreachable
+                      break;
+..\User\module\communicate.cpp(475): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\User\module\communicate.cpp: 5 warnings, 0 errors
+compiling usbd_cdc_if.c...
+compiling usbd_ctlreq.c...
+compiling usbd_cdc.c...
+compiling usbd_desc.c...
+compiling usbd_core.c...
+compiling usbd_conf.c...
+compiling usbd_ioreq.c...
+linking...
+Program Size: Code=97080 RO-data=2380 RW-data=952 ZI-data=47008  
+FromELF: creating hex file...
+"CtrlBoard-H7_IMU\CtrlBoard-H7_IMU.axf" - 0 Error(s), 184 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                https://www.keil.com/pack/ARM.CMSIS.6.1.0.pack
+                ARM.CMSIS.6.1.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 6.1.0
+
+Package Vendor: Keil
+                https://www.keil.com/pack/Keil.STM32H7xx_DFP.4.1.0.pack
+                Keil.STM32H7xx_DFP.4.1.0
+                STMicroelectronics STM32H7 Series Device Support
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_CtrlBoard-H7_IMU
+  D:\Users\zhongweikai\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:6.1.0
+Build Time Elapsed:  00:02:27
+</pre>
+</body>
+</html>
