@@ -1,9 +1,8 @@
-#ifndef PID_1_H
-#define PID_1_H
+#ifndef PID_H
+#define PID_H
 
 #ifdef __cplusplus
 #include "struct_typedef.h"
-
 typedef enum
 {
     PID_SPEED = 0, //速度环
@@ -31,6 +30,7 @@ typedef struct
     fp32 error_delta; //微分项,速度环下为error之间的差值,角度环下为陀螺仪角速度值
 
     fp32 out;
+    fp32 *In; //增量
     fp32 Pout;
     fp32 Iout;
     fp32 Dout;
@@ -43,18 +43,17 @@ public:
     uint8_t mode;
     pid_data_t data;
 
-    void init(pid_mode_e mode_, const fp32 *pid_parm, fp32 *ref_, fp32 *set_, fp32 *erro_delta_);
-
+    //常规pid初始化
+    void init(pid_mode_e mode_, const fp32 *pid_parm, fp32 *ref_, fp32 *set_, fp32 erro_delta_);
+    //增量pid初始化
+    void Increase_pid_init(pid_mode_e mode_, const fp32 *pid_parm, fp32 *ref_, fp32 *set_, fp32 erro_delta_,fp32 *Increase_date);
+    //增量pid解算
+    fp32 Increase_pid_calc();
+    //普通pid解算
     fp32 pid_calc(); 
-
+    //清除pid erry数据
     void pid_clear();
-
-    void Clear();
-
-    fp32 cycleTime[3];
-
-	fp32 getCycleT();
 };
 
 #endif
-#endif //CLASSIS_BOARD_PID_H
+#endif

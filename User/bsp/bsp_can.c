@@ -1,10 +1,8 @@
-/**
- *   @brief ������CAN�жϽ��պ��������յ������,CAN���ͺ������͵���������Ƶ��.
- **/
 #include "bsp_can.h"
 #include "main.h"
-extern FDCAN_HandleTypeDef hfdcan1; // CAN����1
+extern FDCAN_HandleTypeDef hfdcan1;
 extern FDCAN_HandleTypeDef hfdcan2;
+
 void can_filter_init(void)
 {
    FDCAN_FilterTypeDef filter;                   	//< 声明局部变量 can过滤器结构体
